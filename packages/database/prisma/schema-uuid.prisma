@@ -1,0 +1,404 @@
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User Management
+model User {
+  id        String   @id @default(uuid()) @db.Uuid
+  email     String   @unique
+  password  String
+  phone     String?
+  firstName String?
+  lastName  String?
+  avatar    String?
+  role      UserRole @default(CUSTOMER)
+  status    UserStatus @default(ACTIVE)
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastLoginAt DateTime?
+  
+  // Relations
+  restaurantUsers RestaurantUser[]
+  customerOrders  Order[] @relation("CustomerOrders")
+  riderInfo       Rider?
+  
+  @@map("users")
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  RESTAURANT_OWNER
+  RESTAURANT_STAFF
+  CUSTOMER
+  RIDER
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+  PENDING_VERIFICATION
+}
+
+// Restaurant Management
+model Restaurant {
+  id               String     @id @default(uuid()) @db.Uuid
+  name             String
+  slug             String     @unique // for subdomain
+  domain           String?    @unique // custom domain
+  description      String?
+  phone            String?
+  email            String?
+  
+  // Address
+  address          String?
+  city             String?
+  state            String?
+  zipCode          String?
+  country          String?    @default("TH")
+  latitude         Float?
+  longitude        Float?
+  deliveryRadius   Float?     @default(5.0) // km
+  
+  // Business Info
+  businessLicense  String?
+  taxId            String?
+  avgDeliveryTime  Int?       @default(30) // minutes
+  commissionRate   Float?     @default(0.15) // 15%
+  
+  // Branding
+  logo             String?
+  banner           String?
+  primaryColor     String?    @default("#22C55E")
+  secondaryColor   String?    @default("#16A34A")
+  fontFamily       String?    @default("Inter")
+  
+  // Settings
+  isOpen           Boolean    @default(true)
+  status           RestaurantStatus @default(PENDING)
+  
+  // Timestamps
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
+  approvedAt       DateTime?
+  
+  // Relations
+  users            RestaurantUser[]
+  categories       Category[]
+  menuItems        MenuItem[]
+  orders           Order[]
+  
+  @@map("restaurants")
+}
+
+enum RestaurantStatus {
+  PENDING
+  APPROVED
+  ACTIVE
+  SUSPENDED
+  INACTIVE
+}
+
+// Restaurant User Permissions
+model RestaurantUser {
+  id           String @id @default(uuid()) @db.Uuid
+  userId       String @db.Uuid
+  restaurantId String @db.Uuid
+  role         RestaurantUserRole @default(STAFF)
+  
+  // Timestamps
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  // Relations
+  user         User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, restaurantId])
+  @@map("restaurant_users")
+}
+
+enum RestaurantUserRole {
+  OWNER
+  MANAGER
+  STAFF
+}
+
+// Menu Management
+model Category {
+  id           String @id @default(uuid()) @db.Uuid
+  restaurantId String @db.Uuid
+  name         String
+  description  String?
+  image        String?
+  sortOrder    Int    @default(0)
+  isActive     Boolean @default(true)
+  
+  // Timestamps
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  // Relations
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  menuItems    MenuItem[]
+  
+  @@map("categories")
+}
+
+model MenuItem {
+  id           String @id @default(uuid()) @db.Uuid
+  restaurantId String @db.Uuid
+  categoryId   String @db.Uuid
+  name         String
+  description  String?
+  price        Float
+  image        String?
+  
+  // Nutrition & Details
+  calories     Int?
+  preparationTime Int? @default(15) // minutes
+  spiceLevel   SpiceLevel? @default(MILD)
+  
+  // Availability
+  isAvailable  Boolean @default(true)
+  isVegetarian Boolean @default(false)
+  isVegan      Boolean @default(false)
+  isGlutenFree Boolean @default(false)
+  
+  // Timestamps
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  // Relations
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  category     Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  orderItems   OrderItem[]
+  
+  @@map("menu_items")
+}
+
+enum SpiceLevel {
+  MILD
+  MEDIUM
+  HOT
+  EXTRA_HOT
+}
+
+// Order Management
+model Order {
+  id               String @id @default(uuid()) @db.Uuid
+  orderNumber      String @unique
+  restaurantId     String @db.Uuid
+  customerId       String @db.Uuid
+  riderId          String? @db.Uuid
+  
+  // Order Details
+  status           OrderStatus @default(PENDING)
+  subtotal         Float
+  deliveryFee      Float @default(0)
+  serviceFee       Float @default(0)
+  tax              Float @default(0)
+  discount         Float @default(0)
+  total            Float
+  
+  // Delivery Info
+  deliveryAddress  String?
+  deliveryLatitude Float?
+  deliveryLongitude Float?
+  deliveryInstructions String?
+  estimatedDeliveryTime DateTime?
+  actualDeliveryTime DateTime?
+  
+  // Payment
+  paymentMethod    PaymentMethod @default(CASH)
+  paymentStatus    PaymentStatus @default(PENDING)
+  paidAt           DateTime?
+  
+  // Timestamps
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  
+  // Relations
+  restaurant       Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  customer         User @relation("CustomerOrders", fields: [customerId], references: [id], onDelete: Cascade)
+  rider            User? @relation("RiderOrders", fields: [riderId], references: [id], onDelete: SetNull)
+  items            OrderItem[]
+  statusHistory    OrderStatusHistory[]
+  
+  @@map("orders")
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  PREPARING
+  READY_FOR_PICKUP
+  PICKED_UP
+  ON_THE_WAY
+  DELIVERED
+  CANCELLED
+  REFUNDED
+}
+
+enum PaymentMethod {
+  CASH
+  CREDIT_CARD
+  PROMPTPAY
+  TRUE_WALLET
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDED
+}
+
+model OrderItem {
+  id        String @id @default(uuid()) @db.Uuid
+  orderId   String @db.Uuid
+  menuItemId String @db.Uuid
+  quantity  Int
+  price     Float // snapshot price at time of order
+  
+  // Relations
+  order     Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  menuItem  MenuItem @relation(fields: [menuItemId], references: [id], onDelete: Cascade)
+  
+  @@map("order_items")
+}
+
+model OrderStatusHistory {
+  id        String @id @default(uuid()) @db.Uuid
+  orderId   String @db.Uuid
+  status    OrderStatus
+  note      String?
+  createdAt DateTime @default(now())
+  
+  // Relations
+  order     Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  
+  @@map("order_status_history")
+}
+
+// Rider Management
+model Rider {
+  id              String @id @default(uuid()) @db.Uuid
+  userId          String @unique @db.Uuid
+  vehicleType     VehicleType
+  vehicleNumber   String
+  licenseNumber   String
+  verificationStatus VerificationStatus @default(PENDING)
+  isOnline        Boolean @default(false)
+  isAvailable     Boolean @default(false)
+  
+  // Location
+  currentLatitude  Float?
+  currentLongitude Float?
+  lastLocationUpdate DateTime?
+  
+  // Rating & Stats
+  rating          Float? @default(5.0)
+  totalDeliveries Int @default(0)
+  totalEarnings   Float @default(0)
+  
+  // Timestamps
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relations
+  user            User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  documents       RiderDocument[]
+  locations       RiderLocation[]
+  earnings        RiderEarning[]
+  orders          Order[] @relation("RiderOrders")
+  
+  @@map("riders")
+}
+
+enum VehicleType {
+  MOTORCYCLE
+  BICYCLE
+  CAR
+  WALKING
+}
+
+enum VerificationStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+model RiderDocument {
+  id        String @id @default(uuid()) @db.Uuid
+  riderId   String @db.Uuid
+  type      DocumentType
+  fileUrl   String
+  status    DocumentStatus @default(PENDING)
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // Relations
+  rider     Rider @relation(fields: [riderId], references: [id], onDelete: Cascade)
+  
+  @@map("rider_documents")
+}
+
+enum DocumentType {
+  DRIVER_LICENSE
+  VEHICLE_REGISTRATION
+  INSURANCE
+  BACKGROUND_CHECK
+}
+
+enum DocumentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model RiderLocation {
+  id        String @id @default(uuid()) @db.Uuid
+  riderId   String @db.Uuid
+  latitude  Float
+  longitude Float
+  timestamp DateTime @default(now())
+  
+  // Relations
+  rider     Rider @relation(fields: [riderId], references: [id], onDelete: Cascade)
+  
+  @@map("rider_locations")
+}
+
+model RiderEarning {
+  id        String @id @default(uuid()) @db.Uuid
+  riderId   String @db.Uuid
+  orderId   String? @db.Uuid
+  type      EarningType
+  amount    Float
+  date      DateTime @default(now())
+  
+  // Relations
+  rider     Rider @relation(fields: [riderId], references: [id], onDelete: Cascade)
+  
+  @@map("rider_earnings")
+}
+
+enum EarningType {
+  DELIVERY_FEE
+  TIP
+  BONUS
+  PENALTY
+} 
