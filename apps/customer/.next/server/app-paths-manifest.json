@@ -1,4 +1,6 @@
 {
   "/api/menu/route": "app/api/menu/route.js",
+  "/cart/page": "app/cart/page.js",
+  "/food/detail/[slug]/page": "app/food/detail/[slug]/page.js",
   "/page": "app/page.js"
 }

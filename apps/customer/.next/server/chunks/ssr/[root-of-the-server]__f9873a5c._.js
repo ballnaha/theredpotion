@@ -85,38 +85,62 @@ const themeOptions = {
             'sans-serif'
         ].join(','),
         h1: {
-            fontSize: '2.5rem',
+            fontSize: '1.75rem',
             fontWeight: 700,
-            letterSpacing: '-0.02em'
+            letterSpacing: '-0.02em',
+            '@media (min-width:600px)': {
+                fontSize: '2.5rem'
+            }
         },
         h2: {
-            fontSize: '2rem',
+            fontSize: '1.5rem',
             fontWeight: 600,
-            letterSpacing: '-0.01em'
+            letterSpacing: '-0.01em',
+            '@media (min-width:600px)': {
+                fontSize: '2rem'
+            }
         },
         h3: {
-            fontSize: '1.75rem',
-            fontWeight: 600
+            fontSize: '1.375rem',
+            fontWeight: 600,
+            '@media (min-width:600px)': {
+                fontSize: '1.75rem'
+            }
         },
         h4: {
-            fontSize: '1.5rem',
-            fontWeight: 600
+            fontSize: '1.25rem',
+            fontWeight: 600,
+            '@media (min-width:600px)': {
+                fontSize: '1.5rem'
+            }
         },
         h5: {
-            fontSize: '1.25rem',
-            fontWeight: 600
+            fontSize: '1.125rem',
+            fontWeight: 600,
+            '@media (min-width:600px)': {
+                fontSize: '1.25rem'
+            }
         },
         h6: {
-            fontSize: '1.125rem',
-            fontWeight: 600
+            fontSize: '1rem',
+            fontWeight: 600,
+            '@media (min-width:600px)': {
+                fontSize: '1.125rem'
+            }
         },
         body1: {
-            fontSize: '1rem',
-            lineHeight: 1.6
+            fontSize: '0.875rem',
+            lineHeight: 1.6,
+            '@media (min-width:600px)': {
+                fontSize: '1rem'
+            }
         },
         body2: {
-            fontSize: '0.875rem',
-            lineHeight: 1.5
+            fontSize: '0.75rem',
+            lineHeight: 1.5,
+            '@media (min-width:600px)': {
+                fontSize: '0.875rem'
+            }
         }
     },
     shape: {
@@ -244,7 +268,18 @@ const themeOptions = {
                         backgroundColor: colors.background.glassSecondary,
                         backdropFilter: glassMorphism.backdrop,
                         WebkitBackdropFilter: glassMorphism.backdrop,
-                        borderRadius: 12,
+                        borderRadius: {
+                            xs: 8,
+                            sm: 12
+                        },
+                        fontSize: {
+                            xs: '14px',
+                            sm: '16px'
+                        },
+                        minHeight: {
+                            xs: '40px',
+                            sm: '48px'
+                        },
                         '& fieldset': {
                             border: `1px solid ${glassMorphism.border}`
                         },
@@ -253,6 +288,36 @@ const themeOptions = {
                         },
                         '&.Mui-focused fieldset': {
                             border: `2px solid ${colors.primary.main}`
+                        },
+                        '&.MuiInputBase-sizeSmall': {
+                            minHeight: {
+                                xs: '36px',
+                                sm: '40px'
+                            },
+                            fontSize: {
+                                xs: '13px',
+                                sm: '14px'
+                            }
+                        }
+                    },
+                    '& .MuiInputBase-input': {
+                        padding: {
+                            xs: '8px 12px',
+                            sm: '12px 16px'
+                        },
+                        fontSize: {
+                            xs: '14px',
+                            sm: '16px'
+                        },
+                        '&.MuiInputBase-inputSizeSmall': {
+                            padding: {
+                                xs: '6px 10px',
+                                sm: '8px 12px'
+                            },
+                            fontSize: {
+                                xs: '13px',
+                                sm: '14px'
+                            }
                         }
                     }
                 }

@@ -1,0 +1,21 @@
+{
+  "pages": {
+    "/cart/page": [
+      "static/chunks/node_modules_747200f5._.js",
+      "static/chunks/apps_customer_theme_ts_14d44267._.js",
+      "static/chunks/apps_customer_src_app_globals_5ca7466b.css",
+      "static/chunks/apps_customer_src_app_layout_tsx_c0237562._.js",
+      "static/chunks/apps_customer_src_app_6beecba4._.js",
+      "static/chunks/node_modules_@mui_material_esm_b741ded3._.js",
+      "static/chunks/node_modules_db67b825._.js",
+      "static/chunks/apps_customer_src_app_cart_page_tsx_6cd2e98b._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
+      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/apps_customer_e69f0d32._.js",
+      "static/chunks/apps_customer_93808211._.js"
+    ]
+  }
+}

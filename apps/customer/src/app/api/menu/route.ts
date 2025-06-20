@@ -4,6 +4,7 @@ import { NextResponse } from 'next/server';
 const mockMenuItems = [
   {
     id: 'cm001',
+    slug: 'organic-quinoa-bowl',
     name: 'โบวล์ควินัวออร์แกนิก',
     description: 'ควินัวสีแดงอินทรีย์ อะโวคาโดสดสไลซ์ ผักโขมอ่อน เพอโรนิค่า เมล็ดซันฟลาวเวอร์ ราดด้วยน้ำสลัดมะนาวผสมเฮมป์ออยล์',
     originalPrice: 350.00,
@@ -40,6 +41,7 @@ const mockMenuItems = [
   },
   {
     id: 'cm002',
+    slug: 'premium-acai-bowl',
     name: 'อาซาอิโบวล์พรีเมี่ยม',
     description: 'อาซาอิเบอรี่แท้จากบราซิล ผสมกล้วยโฮมสดแช่แข็ง โรยด้วยโกรนลาฮาร์ดเมด บลูเบอรี่สด สตรอเบอรี่ กีวีฟรุต กะลามะพร้าวคั่ว',
     originalPrice: 295.00,
@@ -76,6 +78,7 @@ const mockMenuItems = [
   },
   {
     id: 'cm003',
+    slug: 'teriyaki-salmon-vegetables',
     name: 'แซลมอนเทริยากิพร้อมผัก',
     description: 'แซลมอนนอร์เวย์เกรดพรีเมี่ยม หมักซอสเทริยากิโฮมเมด เสิร์ฟพร้อมบรอกโคลี่อบ แครอทเบบี้ ข้าวไรซ์เบอรี่ หน่อไผ่ญี่ปุ่น',
     originalPrice: 590.00,
@@ -112,6 +115,7 @@ const mockMenuItems = [
   },
   {
     id: 'cm004',
+    slug: 'green-detox-smoothie',
     name: 'กรีนดีท็อกซ์สมูธี่',
     description: 'เครื่องดื่มล้างพิษ ผสมผักเคลคัดพิเศษ คื่นช่าย แอปเปิ้ลเขียว แตงกวาอินทรีย์ มะนาวสด ขิงแก่ สไปรูลิน่า',
     originalPrice: 155.00,
@@ -148,6 +152,7 @@ const mockMenuItems = [
   },
   {
     id: 'cm005',
+    slug: 'lavender-chia-pudding',
     name: 'เชียพุดดิ้งลัเวนเดอร์',
     description: 'เมล็ดเชียชั้นเยี่ยม แช่นมอัลมอนด์ ผสมน้ำผึ้งมานูกา กลีบลัเวนเดอร์อบแห้ง โรยด้วยบลูเบอรี่สด ฟลอสมิ๊กซ์ เกล็ดมะพร้าว',
     originalPrice: 220.00,
@@ -184,6 +189,7 @@ const mockMenuItems = [
   },
   {
     id: 'cm006',
+    slug: 'premium-avocado-toast',
     name: 'อะโวคาโดโทสต์พรีเมี่ยม',
     description: 'ขนมปังซาวร์โดเซเกิร์ด เนื้อแท้ 100% โรยด้วยอะโวคาโดเฮสแมช เพิ่มไข่ดาวออร์แกนิก เมล็ดเซีย เกล็ดพริกแดง ปรุงรสเกลือหิมาลัย',
     originalPrice: 275.00,

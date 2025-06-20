@@ -56,5 +56,33 @@ a {
   }
 }
 
+.swiper-pagination {
+  justify-content: center !important;
+  gap: 8px !important;
+  width: auto !important;
+  display: flex !important;
+  position: absolute !important;
+  bottom: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  background: #ffffff80 !important;
+  border: 2px solid #fffc !important;
+  border-radius: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+  transition: all .3s !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffffe6 !important;
+  border: 2px solid #fff !important;
+  transform: scale(1.2) !important;
+  box-shadow: 0 4px 15px #fff6 !important;
+}
+
 
 /*# sourceMappingURL=apps_customer_src_app_globals_5ca7466b.css.map*/
