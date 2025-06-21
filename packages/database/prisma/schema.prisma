@@ -96,6 +96,13 @@ model Restaurant {
   avgDeliveryTime  Int?       @default(30) // minutes
   commissionRate   Float?     @default(0.15) // 15%
   
+  // LINE LIFF Configuration
+  liffId           String?    // LINE LIFF App ID
+  lineChannelId    String?    // LINE Channel ID
+  lineChannelSecret String?   // LINE Channel Secret
+  lineChannelAccessToken String? // LINE Channel Access Token
+  webhookUrl       String?    // LINE Webhook URL
+  
   // Branding
   logo             String?
   banner           String?

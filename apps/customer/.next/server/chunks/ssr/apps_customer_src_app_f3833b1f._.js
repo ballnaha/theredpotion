@@ -235,11 +235,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Alert/Alert.js [app-ssr] (ecmascript) <export default as Alert>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Chip/Chip.js [app-ssr] (ecmascript) <export default as Chip>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Divider/Divider.js [app-ssr] (ecmascript) <export default as Divider>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-ssr] (ecmascript) <export default as ArrowLeft>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$share$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Share2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/share-2.js [app-ssr] (ecmascript) <export default as Share2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/minus.js [app-ssr] (ecmascript) <export default as Minus>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/plus.js [app-ssr] (ecmascript) <export default as Plus>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-ssr] (ecmascript) <export default as Star>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__ = __turbopack_context__.i("[project]/apps/customer/node_modules/lucide-react/dist/esm/icons/minus.js [app-ssr] (ecmascript) <export default as Minus>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/apps/customer/node_modules/lucide-react/dist/esm/icons/plus.js [app-ssr] (ecmascript) <export default as Plus>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/apps/customer/node_modules/lucide-react/dist/esm/icons/star.js [app-ssr] (ecmascript) <export default as Star>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/apps/customer/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$src$2f$app$2f$hooks$2f$useCart$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/apps/customer/src/app/hooks/useCart.ts [app-ssr] (ecmascript)");
 'use client';
 ;
@@ -251,7 +250,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$src$2f$a
 function FoodDetailPage() {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const params = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
-    const { addToCart } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$src$2f$app$2f$hooks$2f$useCart$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCart"])();
+    const { addToCart, cartCount } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$src$2f$app$2f$hooks$2f$useCart$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCart"])();
     const [foodItem, setFoodItem] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [quantity, setQuantity] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(1);
     const [selectedAddOns, setSelectedAddOns] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({});
@@ -260,9 +259,7 @@ function FoodDetailPage() {
     const [snackbarMessage, setSnackbarMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const fetchFoodItem = async ()=>{
-            // Mock data - ในการทำงานจริงจะดึงจาก API
             const slug = params.slug;
-            // สร้าง mock data ตาม slug
             const mockFoodItems = {
                 'organic-quinoa-bowl': {
                     id: 'cm001',
@@ -383,34 +380,12 @@ function FoodDetailPage() {
                         name: 'Zen Healthy Treats',
                         deliveryTime: '15-20 นาที'
                     }
-                },
-                'premium-avocado-toast': {
-                    id: 'cm006',
-                    slug: 'premium-avocado-toast',
-                    name: 'อะโวคาโดโทสต์พรีเมี่ยม',
-                    description: 'ขนมปังซาวร์โดเซเกิร์ด เนื้อแท้ 100% โรยด้วยอะโวคาโดเฮสแมช เพิ่มไข่ดาวออร์แกนิก เมล็ดเซีย เกล็ดพริกแดง ปรุงรสเกลือหิมาลัย',
-                    price: 225,
-                    originalPrice: 275,
-                    discountPercent: 18,
-                    imageUrl: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=800&h=600&fit=crop&crop=center',
-                    emoji: '🥑',
-                    rating: 4.7,
-                    isVegan: false,
-                    isGlutenFree: false,
-                    nutritionalInfo: {
-                        protein: '14g',
-                        carbs: '32g',
-                        fat: '18g',
-                        fiber: '9g'
-                    },
-                    restaurant: {
-                        name: 'Artisan Bread Co.',
-                        deliveryTime: '20-25 นาที'
-                    }
                 }
             };
-            const item = mockFoodItems[slug] || mockFoodItems['organic-quinoa-bowl'];
-            setFoodItem(item);
+            const item = mockFoodItems[slug];
+            if (item) {
+                setFoodItem(item);
+            }
         };
         fetchFoodItem();
     }, [
@@ -425,7 +400,6 @@ function FoodDetailPage() {
     const calculateTotalPrice = ()=>{
         if (!foodItem) return 0;
         let total = foodItem.price * quantity;
-        // Add selected add-ons
         availableAddOns.forEach((addOn)=>{
             if (selectedAddOns[addOn.id]) {
                 total += addOn.price * quantity;
@@ -437,13 +411,9 @@ function FoodDetailPage() {
     const decreaseQuantity = ()=>setQuantity((prev)=>prev > 1 ? prev - 1 : 1);
     const handleAddToCart = ()=>{
         if (!foodItem) return;
-        // Convert selected add-ons to the format expected by useCart
-        const addOnsMap = {};
-        availableAddOns.forEach((addOn)=>{
-            addOnsMap[addOn.id] = selectedAddOns[addOn.id] || false;
-        });
-        addToCart(foodItem.id, foodItem.name, quantity, addOnsMap, specialInstructions.trim(), foodItem.price);
-        setSnackbarMessage(`เพิ่ม ${foodItem.name} ลงตะกร้าแล้ว!`);
+        const selectedAddOnsList = availableAddOns.filter((addOn)=>selectedAddOns[addOn.id]);
+        addToCart(foodItem.id, foodItem.name, quantity, selectedAddOns, specialInstructions.trim(), foodItem.price);
+        setSnackbarMessage(`เพิ่ม ${foodItem.name} (${quantity} รายการ) ลงในตะกร้าแล้ว!`);
         setSnackbarOpen(true);
     };
     const availableAddOns = [
@@ -500,26 +470,28 @@ function FoodDetailPage() {
                 children: "Loading..."
             }, void 0, false, {
                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 298,
+                lineNumber: 269,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-            lineNumber: 292,
+            lineNumber: 268,
             columnNumber: 7
         }, this);
     }
+    const totalPrice = foodItem.price * quantity;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
         sx: {
-            minHeight: '100vh',
+            height: '100vh',
             display: 'flex',
             flexDirection: 'column',
-            background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)'
+            background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
+            overflow: 'hidden'
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
-                    position: 'fixed',
+                    position: 'absolute',
                     top: 0,
                     left: 0,
                     right: 0,
@@ -536,21 +508,19 @@ function FoodDetailPage() {
                     sx: {
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'space-between',
+                        justifyContent: 'flex-end',
                         width: '100%'
                     },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
-                            onClick: ()=>router.back(),
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        sx: {
+                            display: 'flex',
+                            gap: 2
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
                             sx: {
                                 width: 48,
                                 height: 48,
-                                background: `
-                  linear-gradient(135deg, 
-                    rgba(255, 255, 255, 0.2) 0%, 
-                    rgba(255, 255, 255, 0.1) 100%
-                  )
-                `,
+                                background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%)',
                                 backdropFilter: 'blur(30px) saturate(180%)',
                                 WebkitBackdropFilter: 'blur(30px) saturate(180%)',
                                 border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -562,213 +532,157 @@ function FoodDetailPage() {
                                     height: 52
                                 },
                                 '&:hover': {
-                                    background: `
-                    linear-gradient(135deg, 
-                      rgba(255, 255, 255, 0.3) 0%, 
-                      rgba(255, 255, 255, 0.15) 100%
-                    )
-                  `,
+                                    background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%)',
                                     transform: 'translateY(-2px)',
                                     boxShadow: '0 12px 35px rgba(0, 0, 0, 0.1)'
                                 }
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
-                                size: 22,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__["ShoppingBag"], {
+                                size: 20,
                                 color: "#0f172a"
                             }, void 0, false, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 359,
+                                lineNumber: 321,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                            lineNumber: 329,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                            sx: {
-                                display: 'flex',
-                                gap: 2
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
-                                sx: {
-                                    width: 48,
-                                    height: 48,
-                                    background: `
-                  linear-gradient(135deg, 
-                    rgba(255, 255, 255, 0.2) 0%, 
-                    rgba(255, 255, 255, 0.1) 100%
-                  )
-                `,
-                                    backdropFilter: 'blur(30px) saturate(180%)',
-                                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
-                                    border: '1px solid rgba(255, 255, 255, 0.2)',
-                                    borderRadius: '50%',
-                                    boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)',
-                                    transition: 'all 0.3s ease',
-                                    '@media (min-width: 600px)': {
-                                        width: 52,
-                                        height: 52
-                                    },
-                                    '&:hover': {
-                                        background: `
-                    linear-gradient(135deg, 
-                      rgba(255, 255, 255, 0.3) 0%, 
-                      rgba(255, 255, 255, 0.15) 100%
-                    )
-                  `,
-                                        transform: 'translateY(-2px)',
-                                        boxShadow: '0 12px 35px rgba(0, 0, 0, 0.1)'
-                                    }
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$share$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Share2$3e$__["Share2"], {
-                                    size: 20,
-                                    color: "#0f172a"
-                                }, void 0, false, {
-                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 390,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 363,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                            lineNumber: 362,
+                            lineNumber: 304,
                             columnNumber: 13
                         }, this)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                        lineNumber: 303,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                    lineNumber: 323,
+                    lineNumber: 297,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 313,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                sx: {
-                    position: 'relative',
-                    width: '100%',
-                    height: '360px',
-                    mt: '0px',
-                    overflow: 'hidden',
-                    background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(5, 150, 105, 0.02))',
-                    '@media (min-width: 600px)': {
-                        height: '440px'
-                    },
-                    '@media (min-width: 900px)': {
-                        height: '520px'
-                    }
-                },
-                children: [
-                    foodItem.discountPercent && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            position: 'absolute',
-                            bottom: 20,
-                            left: 20,
-                            background: 'linear-gradient(135deg, #ef4444, #dc2626)',
-                            color: 'white',
-                            px: 2.5,
-                            py: 1.2,
-                            borderRadius: '18px',
-                            fontSize: '15px',
-                            fontWeight: 600,
-                            zIndex: 2,
-                            boxShadow: '0 10px 30px rgba(239, 68, 68, 0.4)'
-                        },
-                        children: [
-                            "-",
-                            foodItem.discountPercent,
-                            "%"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 409,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            position: 'absolute',
-                            bottom: 20,
-                            right: 20,
-                            background: 'rgba(0, 0, 0, 0.7)',
-                            color: 'white',
-                            px: 2,
-                            py: 1,
-                            borderRadius: '14px',
-                            fontSize: '15px',
-                            fontWeight: 500,
-                            zIndex: 2,
-                            backdropFilter: 'blur(15px)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: 0.5
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                size: 16,
-                                fill: "currentColor"
-                            }, void 0, false, {
-                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 445,
-                                columnNumber: 11
-                            }, this),
-                            foodItem.rating
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 428,
-                        columnNumber: 9
-                    }, this),
-                    foodItem.imageUrl ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        component: "img",
-                        src: foodItem.imageUrl,
-                        alt: foodItem.name,
-                        sx: {
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover'
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 450,
-                        columnNumber: 11
-                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            height: '100%',
-                            fontSize: '140px'
-                        },
-                        children: foodItem.emoji || '🍽️'
-                    }, void 0, false, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 461,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 397,
+                lineNumber: 287,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
                     flex: 1,
                     overflowY: 'auto',
-                    mb: '100px',
+                    pb: '120px',
                     '&::-webkit-scrollbar': {
                         display: 'none'
                     },
                     scrollbarWidth: 'none'
                 },
                 children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        sx: {
+                            position: 'relative',
+                            width: '100%',
+                            height: '300px',
+                            overflow: 'hidden',
+                            background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(5, 150, 105, 0.02))',
+                            '@media (min-width: 600px)': {
+                                height: '360px'
+                            },
+                            '@media (min-width: 900px)': {
+                                height: '420px'
+                            }
+                        },
+                        children: [
+                            foodItem.discountPercent && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    position: 'absolute',
+                                    bottom: 20,
+                                    left: 20,
+                                    background: 'linear-gradient(135deg, #ef4444, #dc2626)',
+                                    color: 'white',
+                                    px: 2.5,
+                                    py: 1.2,
+                                    borderRadius: '18px',
+                                    fontSize: '15px',
+                                    fontWeight: 600,
+                                    zIndex: 2,
+                                    boxShadow: '0 10px 30px rgba(239, 68, 68, 0.4)'
+                                },
+                                children: [
+                                    "-",
+                                    foodItem.discountPercent,
+                                    "%"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 347,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    position: 'absolute',
+                                    bottom: 20,
+                                    right: 20,
+                                    background: 'rgba(0, 0, 0, 0.7)',
+                                    color: 'white',
+                                    px: 2,
+                                    py: 1,
+                                    borderRadius: '14px',
+                                    fontSize: '15px',
+                                    fontWeight: 500,
+                                    zIndex: 2,
+                                    backdropFilter: 'blur(15px)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: 0.5
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                        size: 16,
+                                        fill: "currentColor"
+                                    }, void 0, false, {
+                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                        lineNumber: 383,
+                                        columnNumber: 13
+                                    }, this),
+                                    foodItem.rating
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 366,
+                                columnNumber: 11
+                            }, this),
+                            foodItem.imageUrl ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                component: "img",
+                                src: foodItem.imageUrl,
+                                alt: foodItem.name,
+                                sx: {
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover'
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 388,
+                                columnNumber: 13
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    height: '100%',
+                                    fontSize: '140px'
+                                },
+                                children: foodItem.emoji || '🍽️'
+                            }, void 0, false, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 399,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                        lineNumber: 336,
+                        columnNumber: 9
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                         sx: {
                             py: 3,
@@ -810,8 +724,8 @@ function FoodDetailPage() {
                                                 children: foodItem.name
                                             }, void 0, false, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 493,
-                                                columnNumber: 19
+                                                lineNumber: 422,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
@@ -831,8 +745,8 @@ function FoodDetailPage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 505,
-                                                        columnNumber: 23
+                                                        lineNumber: 434,
+                                                        columnNumber: 19
                                                     }, this),
                                                     foodItem.isGlutenFree && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
                                                         label: "Gluten Free",
@@ -845,80 +759,89 @@ function FoodDetailPage() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 517,
-                                                        columnNumber: 23
+                                                        lineNumber: 446,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 503,
-                                                columnNumber: 19
+                                                lineNumber: 432,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 492,
-                                        columnNumber: 17
+                                        lineNumber: 421,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                         sx: {
-                                            textAlign: 'right'
+                                            textAlign: 'right',
+                                            ml: 2
                                         },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                variant: "h5",
-                                                sx: {
-                                                    fontWeight: 700,
-                                                    color: '#10b981',
-                                                    fontSize: '24px',
-                                                    '@media (min-width: 600px)': {
-                                                        fontSize: '28px'
-                                                    }
-                                                },
-                                                children: [
-                                                    "฿",
-                                                    foodItem.price
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 532,
-                                                columnNumber: 19
-                                            }, this),
-                                            foodItem.originalPrice && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                variant: "body2",
-                                                sx: {
-                                                    color: '#94a3b8',
-                                                    textDecoration: 'line-through',
-                                                    fontSize: '16px'
-                                                },
-                                                children: [
-                                                    "฿",
-                                                    foodItem.originalPrice
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 541,
-                                                columnNumber: 21
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: 1
+                                            },
+                                            children: [
+                                                foodItem.originalPrice && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "body2",
+                                                    sx: {
+                                                        textDecoration: 'line-through',
+                                                        color: '#94a3b8',
+                                                        fontSize: '16px'
+                                                    },
+                                                    children: [
+                                                        "฿",
+                                                        foodItem.originalPrice
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 463,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "h5",
+                                                    sx: {
+                                                        fontWeight: 700,
+                                                        color: '#10b981',
+                                                        fontSize: '24px'
+                                                    },
+                                                    children: [
+                                                        "฿",
+                                                        foodItem.price
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 471,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                            lineNumber: 461,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 531,
-                                        columnNumber: 17
+                                        lineNumber: 460,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 491,
-                                columnNumber: 15
+                                lineNumber: 420,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                 variant: "body1",
                                 sx: {
                                     color: '#475569',
+                                    lineHeight: 1.7,
                                     mb: 3,
-                                    lineHeight: 1.6,
-                                    fontSize: '14px',
+                                    fontSize: '15px',
                                     '@media (min-width: 600px)': {
                                         fontSize: '16px'
                                     }
@@ -926,51 +849,107 @@ function FoodDetailPage() {
                                 children: foodItem.description
                             }, void 0, false, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 552,
-                                columnNumber: 15
+                                lineNumber: 482,
+                                columnNumber: 11
                             }, this),
                             foodItem.restaurant && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                 sx: {
-                                    background: 'rgba(16, 185, 129, 0.2)',
-                                    borderRadius: '12px',
-                                    p: 2,
+                                    background: 'rgba(16, 185, 129, 0.08)',
+                                    borderRadius: '16px',
+                                    p: 2.5,
                                     mb: 3
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        variant: "subtitle2",
-                                        sx: {
-                                            fontWeight: 600,
-                                            color: '#0f172a',
-                                            mb: 0.5
-                                        },
-                                        children: foodItem.restaurant.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 570,
-                                        columnNumber: 19
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        variant: "body2",
-                                        sx: {
-                                            color: '#10b981'
-                                        },
-                                        children: [
-                                            "เวลาจัดส่ง: ",
-                                            foodItem.restaurant.deliveryTime
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 577,
-                                        columnNumber: 19
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        display: 'flex',
+                                        justifyContent: 'space-between',
+                                        alignItems: 'center'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "subtitle2",
+                                                    sx: {
+                                                        fontWeight: 600,
+                                                        color: '#0f172a',
+                                                        fontSize: '14px'
+                                                    },
+                                                    children: foodItem.restaurant.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 502,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "caption",
+                                                    sx: {
+                                                        color: '#64748b',
+                                                        fontSize: '12px'
+                                                    },
+                                                    children: "ร้านอาหาร"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 509,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                            lineNumber: 501,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                textAlign: 'right'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "subtitle2",
+                                                    sx: {
+                                                        fontWeight: 600,
+                                                        color: '#10b981',
+                                                        fontSize: '14px'
+                                                    },
+                                                    children: foodItem.restaurant.deliveryTime
+                                                }, void 0, false, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 517,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    variant: "caption",
+                                                    sx: {
+                                                        color: '#64748b',
+                                                        fontSize: '12px'
+                                                    },
+                                                    children: "เวลาจัดส่ง"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 524,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                            lineNumber: 516,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                    lineNumber: 500,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 564,
-                                columnNumber: 17
+                                lineNumber: 494,
+                                columnNumber: 13
                             }, this),
-                            foodItem.nutritionalInfo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                            foodItem.nutritionalInfo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    mb: 3
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                         variant: "h6",
@@ -978,402 +957,416 @@ function FoodDetailPage() {
                                             fontWeight: 600,
                                             color: '#0f172a',
                                             mb: 2,
-                                            fontSize: '16px',
-                                            '@media (min-width: 600px)': {
-                                                fontSize: '18px'
-                                            }
+                                            fontSize: '18px'
                                         },
                                         children: "ข้อมูลโภชนาการ"
                                     }, void 0, false, {
                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 586,
-                                        columnNumber: 19
+                                        lineNumber: 538,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                         sx: {
                                             display: 'grid',
                                             gridTemplateColumns: 'repeat(2, 1fr)',
                                             gap: 2,
-                                            mb: 3
+                                            '@media (min-width: 600px)': {
+                                                gridTemplateColumns: 'repeat(4, 1fr)'
+                                            }
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    background: 'rgba(59, 130, 246, 0.15)',
-                                                    borderRadius: '8px',
-                                                    p: 1.5,
+                                                    background: 'rgba(255, 255, 255, 0.7)',
+                                                    borderRadius: '12px',
+                                                    p: 2,
                                                     textAlign: 'center'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "caption",
+                                                        variant: "body2",
                                                         sx: {
-                                                            color: '#64748b'
+                                                            color: '#64748b',
+                                                            fontSize: '12px'
                                                         },
                                                         children: "โปรตีน"
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 607,
-                                                        columnNumber: 23
+                                                        lineNumber: 558,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "subtitle2",
+                                                        variant: "h6",
                                                         sx: {
                                                             fontWeight: 600,
-                                                            color: '#3b82f6'
+                                                            color: '#0f172a',
+                                                            fontSize: '16px'
                                                         },
                                                         children: foodItem.nutritionalInfo.protein
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 608,
-                                                        columnNumber: 23
+                                                        lineNumber: 561,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 601,
-                                                columnNumber: 21
+                                                lineNumber: 552,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    background: 'rgba(245, 158, 11, 0.15)',
-                                                    borderRadius: '8px',
-                                                    p: 1.5,
+                                                    background: 'rgba(255, 255, 255, 0.7)',
+                                                    borderRadius: '12px',
+                                                    p: 2,
                                                     textAlign: 'center'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "caption",
+                                                        variant: "body2",
                                                         sx: {
-                                                            color: '#64748b'
+                                                            color: '#64748b',
+                                                            fontSize: '12px'
                                                         },
                                                         children: "คาร์บ"
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 618,
-                                                        columnNumber: 23
+                                                        lineNumber: 575,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "subtitle2",
+                                                        variant: "h6",
                                                         sx: {
                                                             fontWeight: 600,
-                                                            color: '#f59e0b'
+                                                            color: '#0f172a',
+                                                            fontSize: '16px'
                                                         },
                                                         children: foodItem.nutritionalInfo.carbs
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 619,
-                                                        columnNumber: 23
+                                                        lineNumber: 578,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 612,
-                                                columnNumber: 21
+                                                lineNumber: 569,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    background: 'rgba(239, 68, 68, 0.15)',
-                                                    borderRadius: '8px',
-                                                    p: 1.5,
+                                                    background: 'rgba(255, 255, 255, 0.7)',
+                                                    borderRadius: '12px',
+                                                    p: 2,
                                                     textAlign: 'center'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "caption",
+                                                        variant: "body2",
                                                         sx: {
-                                                            color: '#64748b'
+                                                            color: '#64748b',
+                                                            fontSize: '12px'
                                                         },
                                                         children: "ไขมัน"
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 629,
-                                                        columnNumber: 23
+                                                        lineNumber: 592,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "subtitle2",
+                                                        variant: "h6",
                                                         sx: {
                                                             fontWeight: 600,
-                                                            color: '#ef4444'
+                                                            color: '#0f172a',
+                                                            fontSize: '16px'
                                                         },
                                                         children: foodItem.nutritionalInfo.fat
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 630,
-                                                        columnNumber: 23
+                                                        lineNumber: 595,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 623,
-                                                columnNumber: 21
+                                                lineNumber: 586,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    background: 'rgba(16, 185, 129, 0.15)',
-                                                    borderRadius: '8px',
-                                                    p: 1.5,
+                                                    background: 'rgba(255, 255, 255, 0.7)',
+                                                    borderRadius: '12px',
+                                                    p: 2,
                                                     textAlign: 'center'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "caption",
+                                                        variant: "body2",
                                                         sx: {
-                                                            color: '#64748b'
+                                                            color: '#64748b',
+                                                            fontSize: '12px'
                                                         },
                                                         children: "ไฟเบอร์"
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 640,
-                                                        columnNumber: 23
+                                                        lineNumber: 609,
+                                                        columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "subtitle2",
+                                                        variant: "h6",
                                                         sx: {
                                                             fontWeight: 600,
-                                                            color: '#10b981'
+                                                            color: '#0f172a',
+                                                            fontSize: '16px'
                                                         },
                                                         children: foodItem.nutritionalInfo.fiber
                                                     }, void 0, false, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 641,
-                                                        columnNumber: 23
+                                                        lineNumber: 612,
+                                                        columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 634,
-                                                columnNumber: 21
+                                                lineNumber: 603,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                        lineNumber: 595,
-                                        columnNumber: 19
+                                        lineNumber: 546,
+                                        columnNumber: 15
                                     }, this)
                                 ]
-                            }, void 0, true)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 483,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            py: 3,
-                            px: 2,
-                            background: 'rgba(255, 255, 255, 0.3)',
-                            backdropFilter: 'blur(10px)',
-                            '@media (min-width: 600px)': {
-                                px: 3
-                            },
-                            '@media (min-width: 900px)': {
-                                px: 4
-                            }
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                variant: "h6",
+                            }, void 0, true, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 537,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
                                 sx: {
-                                    fontWeight: 600,
-                                    color: '#0f172a',
-                                    mb: 2,
-                                    fontSize: '16px',
-                                    '@media (min-width: 600px)': {
-                                        fontSize: '18px'
-                                    }
-                                },
-                                children: "เสริมเพิ่มเติม"
+                                    my: 3,
+                                    borderColor: 'rgba(0, 0, 0, 0.08)'
+                                }
                             }, void 0, false, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 659,
-                                columnNumber: 15
+                                lineNumber: 624,
+                                columnNumber: 11
                             }, this),
-                            availableAddOns.map((addOn)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControlLabel$2f$FormControlLabel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControlLabel$3e$__["FormControlLabel"], {
-                                            control: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__["Checkbox"], {
-                                                checked: selectedAddOns[addOn.id] || false,
-                                                onChange: ()=>handleAddOnChange(addOn.id),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    mb: 3
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                        variant: "h6",
+                                        sx: {
+                                            fontWeight: 600,
+                                            color: '#0f172a',
+                                            mb: 2,
+                                            fontSize: '18px'
+                                        },
+                                        children: "เพิ่มเติม (ไม่บังคับ)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                        lineNumber: 628,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            gap: 1.5
+                                        },
+                                        children: availableAddOns.map((addOn)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    color: '#10b981',
-                                                    '&.Mui-checked': {
-                                                        color: '#10b981'
-                                                    }
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 673,
-                                                columnNumber: 23
-                                            }, void 0),
-                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                    background: 'rgba(255, 255, 255, 0.7)',
+                                                    borderRadius: '12px',
+                                                    p: 2,
+                                                    border: selectedAddOns[addOn.id] ? '2px solid #10b981' : '1px solid rgba(0, 0, 0, 0.08)'
+                                                },
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControlLabel$2f$FormControlLabel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControlLabel$3e$__["FormControlLabel"], {
+                                                    control: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__["Checkbox"], {
+                                                        checked: selectedAddOns[addOn.id] || false,
+                                                        onChange: ()=>handleAddOnChange(addOn.id),
                                                         sx: {
-                                                            display: 'flex',
-                                                            justifyContent: 'space-between',
-                                                            alignItems: 'center',
-                                                            width: '100%'
+                                                            color: '#10b981',
+                                                            '&.Mui-checked': {
+                                                                color: '#10b981'
+                                                            }
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                        lineNumber: 646,
+                                                        columnNumber: 23
+                                                    }, void 0),
+                                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            ml: 1
                                                         },
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                variant: "subtitle2",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                                 sx: {
-                                                                    fontWeight: 500,
-                                                                    color: '#0f172a'
-                                                                },
-                                                                children: addOn.name
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                                lineNumber: 687,
-                                                                columnNumber: 27
-                                                            }, void 0),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                variant: "subtitle2",
-                                                                sx: {
-                                                                    fontWeight: 600,
-                                                                    color: '#10b981'
+                                                                    display: 'flex',
+                                                                    justifyContent: 'space-between',
+                                                                    alignItems: 'center'
                                                                 },
                                                                 children: [
-                                                                    "+฿",
-                                                                    addOn.price
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                        variant: "subtitle1",
+                                                                        sx: {
+                                                                            fontWeight: 500,
+                                                                            color: '#0f172a',
+                                                                            fontSize: '15px'
+                                                                        },
+                                                                        children: addOn.name
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                                        lineNumber: 658,
+                                                                        columnNumber: 27
+                                                                    }, void 0),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                        variant: "subtitle1",
+                                                                        sx: {
+                                                                            fontWeight: 600,
+                                                                            color: '#10b981',
+                                                                            fontSize: '15px'
+                                                                        },
+                                                                        children: [
+                                                                            "+฿",
+                                                                            addOn.price
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                                        lineNumber: 665,
+                                                                        columnNumber: 27
+                                                                    }, void 0)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                                lineNumber: 690,
-                                                                columnNumber: 27
+                                                                lineNumber: 657,
+                                                                columnNumber: 25
+                                                            }, void 0),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "caption",
+                                                                sx: {
+                                                                    color: '#64748b',
+                                                                    fontSize: '13px'
+                                                                },
+                                                                children: addOn.description
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                                lineNumber: 673,
+                                                                columnNumber: 25
                                                             }, void 0)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 686,
-                                                        columnNumber: 25
+                                                        lineNumber: 656,
+                                                        columnNumber: 23
                                                     }, void 0),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "caption",
-                                                        sx: {
-                                                            color: '#64748b'
-                                                        },
-                                                        children: addOn.description
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                        lineNumber: 694,
-                                                        columnNumber: 25
-                                                    }, void 0)
-                                                ]
-                                            }, void 0, true, {
+                                                    sx: {
+                                                        width: '100%',
+                                                        m: 0
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                                    lineNumber: 644,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, addOn.id, false, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 685,
-                                                columnNumber: 23
-                                            }, void 0),
-                                            sx: {
-                                                width: '100%',
-                                                ml: 0,
-                                                mr: 0,
-                                                '& .MuiFormControlLabel-label': {
-                                                    width: '100%'
-                                                }
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 671,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
-                                            sx: {
-                                                my: 1.5
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 706,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, addOn.id, true, {
-                                    fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 670,
-                                    columnNumber: 17
-                                }, this))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 651,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            py: 3,
-                            px: 2,
-                            background: 'rgba(255, 255, 255, 0.4)',
-                            backdropFilter: 'blur(10px)',
-                            '@media (min-width: 600px)': {
-                                px: 3
-                            },
-                            '@media (min-width: 900px)': {
-                                px: 4
-                            }
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                variant: "h6",
-                                sx: {
-                                    fontWeight: 600,
-                                    color: '#0f172a',
-                                    mb: 2,
-                                    fontSize: '16px',
-                                    '@media (min-width: 600px)': {
-                                        fontSize: '18px'
-                                    }
-                                },
-                                children: "คำสั่งพิเศษ"
-                            }, void 0, false, {
+                                                lineNumber: 638,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                        lineNumber: 636,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 720,
-                                columnNumber: 15
+                                lineNumber: 627,
+                                columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                fullWidth: true,
-                                multiline: true,
-                                rows: 2,
-                                variant: "outlined",
-                                placeholder: "เช่น ไม่ใส่หอม, ใส่พริกเพิ่ม, ฯลฯ",
-                                value: specialInstructions,
-                                onChange: (e)=>setSpecialInstructions(e.target.value),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
                                 sx: {
-                                    '& .MuiOutlinedInput-root': {
-                                        borderRadius: '16px',
-                                        background: 'rgba(248, 250, 252, 0.8)',
-                                        fontSize: '14px',
-                                        '@media (min-width: 600px)': {
-                                            fontSize: '16px'
-                                        },
-                                        '& fieldset': {
-                                            borderColor: 'rgba(16, 185, 129, 0.3)'
-                                        },
-                                        '&:hover fieldset': {
-                                            borderColor: 'rgba(16, 185, 129, 0.5)'
-                                        },
-                                        '&.Mui-focused fieldset': {
-                                            borderColor: '#10b981'
-                                        }
-                                    }
+                                    my: 3,
+                                    borderColor: 'rgba(0, 0, 0, 0.08)'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                lineNumber: 730,
-                                columnNumber: 15
+                                lineNumber: 688,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    mb: 3
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                        variant: "h6",
+                                        sx: {
+                                            fontWeight: 600,
+                                            color: '#0f172a',
+                                            mb: 2,
+                                            fontSize: '18px'
+                                        },
+                                        children: "คำสั่งพิเศษ"
+                                    }, void 0, false, {
+                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                        lineNumber: 692,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                        fullWidth: true,
+                                        multiline: true,
+                                        rows: 2,
+                                        variant: "outlined",
+                                        placeholder: "เช่น ไม่ใส่หอม, ใส่พริกเพิ่ม, ฯลฯ",
+                                        value: specialInstructions,
+                                        onChange: (e)=>setSpecialInstructions(e.target.value),
+                                        sx: {
+                                            '& .MuiOutlinedInput-root': {
+                                                borderRadius: '16px',
+                                                background: 'rgba(248, 250, 252, 0.8)',
+                                                fontSize: '14px',
+                                                '@media (min-width: 600px)': {
+                                                    fontSize: '16px'
+                                                },
+                                                '& fieldset': {
+                                                    borderColor: 'rgba(16, 185, 129, 0.3)'
+                                                },
+                                                '&:hover fieldset': {
+                                                    borderColor: 'rgba(16, 185, 129, 0.5)'
+                                                },
+                                                '&.Mui-focused fieldset': {
+                                                    borderColor: '#10b981'
+                                                }
+                                            }
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                        lineNumber: 700,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
+                                lineNumber: 691,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                        lineNumber: 712,
-                        columnNumber: 11
+                        lineNumber: 412,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 474,
+                lineNumber: 328,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1432,8 +1425,8 @@ function FoodDetailPage() {
                                     children: "จำนวน:"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 798,
-                                    columnNumber: 15
+                                    lineNumber: 768,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                     sx: {
@@ -1461,17 +1454,17 @@ function FoodDetailPage() {
                                                     height: 36
                                                 }
                                             },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__["Minus"], {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__["Minus"], {
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 818,
-                                                columnNumber: 19
+                                                lineNumber: 788,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 806,
-                                            columnNumber: 17
+                                            lineNumber: 776,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                             sx: {
@@ -1484,8 +1477,8 @@ function FoodDetailPage() {
                                             children: quantity
                                         }, void 0, false, {
                                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 820,
-                                            columnNumber: 17
+                                            lineNumber: 790,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
                                             onClick: increaseQuantity,
@@ -1501,29 +1494,29 @@ function FoodDetailPage() {
                                                     height: 36
                                                 }
                                             },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$customer$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                                lineNumber: 839,
-                                                columnNumber: 19
+                                                lineNumber: 809,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 829,
-                                            columnNumber: 17
+                                            lineNumber: 799,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 805,
-                                    columnNumber: 15
+                                    lineNumber: 775,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                            lineNumber: 788,
-                            columnNumber: 13
+                            lineNumber: 758,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                             sx: {
@@ -1556,8 +1549,8 @@ function FoodDetailPage() {
                                             children: "ราคารวม"
                                         }, void 0, false, {
                                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 861,
-                                            columnNumber: 17
+                                            lineNumber: 831,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                             variant: "h6",
@@ -1571,18 +1564,18 @@ function FoodDetailPage() {
                                             },
                                             children: [
                                                 "฿",
-                                                calculateTotalPrice().toFixed(0)
+                                                totalPrice.toFixed(0)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                            lineNumber: 864,
-                                            columnNumber: 17
+                                            lineNumber: 834,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 857,
-                                    columnNumber: 15
+                                    lineNumber: 827,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
                                     variant: "contained",
@@ -1614,24 +1607,24 @@ function FoodDetailPage() {
                                     children: "เพิ่มลงตะกร้า"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                                    lineNumber: 874,
-                                    columnNumber: 15
+                                    lineNumber: 844,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                            lineNumber: 845,
-                            columnNumber: 13
+                            lineNumber: 815,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                    lineNumber: 774,
+                    lineNumber: 744,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 760,
+                lineNumber: 731,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__["Snackbar"], {
@@ -1656,18 +1649,18 @@ function FoodDetailPage() {
                     children: snackbarMessage
                 }, void 0, false, {
                     fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                    lineNumber: 915,
+                    lineNumber: 885,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-                lineNumber: 909,
+                lineNumber: 879,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/customer/src/app/food/detail/[slug]/page.tsx",
-        lineNumber: 306,
+        lineNumber: 279,
         columnNumber: 5
     }, this);
 }

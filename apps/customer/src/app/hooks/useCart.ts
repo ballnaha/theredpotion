@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
+import { isInLiffEnvironment, getLiffDelay, safeLSGetItem, safeLSSetItem, safeLSRemoveItem } from '../utils/liff';
+import { getTenantLSItem, setTenantLSItem, removeTenantLSItem } from '../utils/tenant';
 
 // Types
 interface CartItem {
@@ -47,9 +49,19 @@ export const useCart = () => {
     return `${productId}_${addOnString}_${instructionsKey}`;
   }, []);
 
-  // Set mounted flag first
+  // Set mounted flag first with LIFF consideration
   useEffect(() => {
-    setIsMounted(true);
+    const delay = getLiffDelay();
+    
+    if (delay > 0) {
+      // In LIFF environment, wait for everything to be ready
+      setTimeout(() => {
+        setIsMounted(true);
+      }, delay);
+    } else {
+      // Normal browser
+      setIsMounted(true);
+    }
   }, []);
 
   // Load cart from localStorage on mount (client-side only)
@@ -57,8 +69,16 @@ export const useCart = () => {
     if (!isMounted) return;
     
     try {
-      const savedCart = localStorage.getItem(CART_STORAGE_KEY);
-      const savedMetadata = localStorage.getItem(CART_METADATA_STORAGE_KEY);
+      // Try tenant-aware storage first, fallback to regular storage
+      let savedCart = getTenantLSItem(CART_STORAGE_KEY);
+      let savedMetadata = getTenantLSItem(CART_METADATA_STORAGE_KEY);
+      
+      if (!savedCart) {
+        savedCart = safeLSGetItem(CART_STORAGE_KEY);
+      }
+      if (!savedMetadata) {
+        savedMetadata = safeLSGetItem(CART_METADATA_STORAGE_KEY);
+      }
 
       if (savedCart) {
         const parsedCart: CartState = JSON.parse(savedCart);
@@ -75,8 +95,10 @@ export const useCart = () => {
     } catch (error) {
       console.error('Error loading cart from localStorage:', error);
       // Clear corrupted data
-      localStorage.removeItem(CART_STORAGE_KEY);
-      localStorage.removeItem(CART_METADATA_STORAGE_KEY);
+      removeTenantLSItem(CART_STORAGE_KEY);
+      removeTenantLSItem(CART_METADATA_STORAGE_KEY);
+      safeLSRemoveItem(CART_STORAGE_KEY);
+      safeLSRemoveItem(CART_METADATA_STORAGE_KEY);
     } finally {
       setIsLoaded(true);
     }
@@ -85,22 +107,16 @@ export const useCart = () => {
   // Save cart to localStorage whenever it changes (client-side only)
   useEffect(() => {
     if (isLoaded && isMounted) {
-      try {
-        localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cart));
-      } catch (error) {
-        console.error('Error saving cart to localStorage:', error);
-      }
+      // Use tenant-aware storage
+      setTenantLSItem(CART_STORAGE_KEY, JSON.stringify(cart));
     }
   }, [cart, isLoaded, isMounted]);
 
   // Save metadata to localStorage whenever it changes (client-side only)
   useEffect(() => {
     if (isLoaded && isMounted) {
-      try {
-        localStorage.setItem(CART_METADATA_STORAGE_KEY, JSON.stringify(cartMetadata));
-      } catch (error) {
-        console.error('Error saving cart metadata to localStorage:', error);
-      }
+      // Use tenant-aware storage
+      setTenantLSItem(CART_METADATA_STORAGE_KEY, JSON.stringify(cartMetadata));
     }
   }, [cartMetadata, isLoaded, isMounted]);
 
@@ -188,18 +204,40 @@ export const useCart = () => {
     setCartMetadata({});
     setCartCount(0);
     if (isMounted) {
-      localStorage.removeItem(CART_STORAGE_KEY);
-      localStorage.removeItem(CART_METADATA_STORAGE_KEY);
+      // Clear tenant-aware storage
+      removeTenantLSItem(CART_STORAGE_KEY);
+      removeTenantLSItem(CART_METADATA_STORAGE_KEY);
     }
   }, [isMounted]);
 
   // Calculate total price
   const calculateTotalPrice = useCallback(() => {
+    // Add-on name to price mapping
+    const addOnPrices: { [key: string]: number } = {
+      '1': 45, // ชีสเฟต้าเพิ่ม
+      '2': 60, // อะโวคาโด
+      '3': 35, // มะกอกดำ
+      '4': 40, // อัลมอนด์แผ่น
+      '5': 25, // เมล็ดทานตะวัน
+      '6': 30  // น้ำสลัดบัลซามิค
+    };
+
     return Object.entries(cart).reduce((total, [cartKey, quantity]) => {
       const metadata = cartMetadata[cartKey];
       if (!metadata) return total;
       
-      const itemTotal = metadata.basePrice * quantity;
+      // Calculate base price
+      let itemTotal = metadata.basePrice * quantity;
+      
+      // Add add-on prices
+      if (metadata.addOns) {
+        Object.keys(metadata.addOns).forEach(addOnId => {
+          if (metadata.addOns[addOnId] && addOnPrices[addOnId]) {
+            itemTotal += addOnPrices[addOnId] * quantity;
+          }
+        });
+      }
+      
       return total + itemTotal;
     }, 0);
   }, [cart, cartMetadata]);

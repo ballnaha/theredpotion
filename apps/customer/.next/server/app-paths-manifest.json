@@ -1,6 +1,8 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/liff/config/route": "app/api/liff/config/route.js",
   "/api/menu/route": "app/api/menu/route.js",
-  "/cart/page": "app/cart/page.js",
-  "/food/detail/[slug]/page": "app/food/detail/[slug]/page.js",
+  "/api/tenant/[tenantId]/menu/route": "app/api/tenant/[tenantId]/menu/route.js",
+  "/api/webhook/line/route": "app/api/webhook/line/route.js",
   "/page": "app/page.js"
 }

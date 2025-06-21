@@ -42,10 +42,23 @@ import {
 import { LocationOn } from '@mui/icons-material';
 import { useCart } from './hooks/useCart';
 import ClientOnly from './components/ClientOnly';
+import LineLoginButton from './components/LineLoginButton';
+import LiffDebugPanel from './components/LiffDebugPanel';
+import { useTenant, useTenantSettings } from './contexts/TenantContext';
+import { useAuth } from './contexts/AuthContext';
 
-export default function HomePage() {
+export default function HomePage({
+  params,
+  searchParams
+}: {
+  params?: Promise<any>;
+  searchParams?: Promise<any>;
+}) {
   const router = useRouter();
   const { cartCount, isLoaded } = useCart();
+  const { tenant, tenantId, isLoading: tenantLoading } = useTenant();
+  const { brandName, primaryColor, deliveryFee, freeDeliveryThreshold } = useTenantSettings();
+  const { user, isAuthenticated, isLoading: authLoading, login, logout } = useAuth();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchValue, setSearchValue] = useState('');
   const [isMounted, setIsMounted] = useState(false);
@@ -57,6 +70,14 @@ export default function HomePage() {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState('');
   const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // Show tenant info on load (for demo)
+  useEffect(() => {
+    if (tenant && !tenantLoading && isMounted) {
+      setSnackbarMessage(`🏪 ยินดีต้อนรับสู่ ${tenant.name} (${tenantId})`);
+      setSnackbarOpen(true);
+    }
+  }, [tenant, tenantId, tenantLoading, isMounted]);
 
   // ป้องกัน hydration mismatch
   useEffect(() => {
@@ -76,7 +97,10 @@ export default function HomePage() {
     const fetchMenuItems = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/menu');
+        
+        // Use tenant-specific API endpoint
+        const apiUrl = tenantId ? `/api/tenant/${tenantId}/menu` : '/api/menu';
+        const response = await fetch(apiUrl);
         const result = await response.json();
         
         if (result.success) {
@@ -92,10 +116,10 @@ export default function HomePage() {
       }
     };
 
-    if (isMounted) {
+    if (isMounted && !tenantLoading) {
       fetchMenuItems();
     }
-  }, [isMounted]);
+  }, [isMounted, tenantId, tenantLoading]);
 
   const categories = [
     { name: 'Hamburger', emoji: '🍔', color: '#FF6B6B' },
@@ -126,7 +150,7 @@ export default function HomePage() {
   const headerBlur = isMounted ? Math.min(20 + scrollY * 0.1, 40) : 20;
   const headerOpacity = isMounted ? Math.min(0.7 + scrollY * 0.001, 0.95) : 0.7;
 
-  if (!isMounted) {
+  if (!isMounted || tenantLoading) {
     return (
       <Box
         sx={{
@@ -140,10 +164,15 @@ export default function HomePage() {
           `,
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          flexDirection: 'column',
+          gap: 2
         }}
       >
-        <CircularProgress />
+        <CircularProgress sx={{ color: primaryColor }} />
+        <Typography variant="body2" color="text.secondary">
+          {tenantLoading ? 'กำลังโหลดข้อมูลร้าน...' : 'กำลังโหลด...'}
+        </Typography>
       </Box>
     );
   }
@@ -192,7 +221,7 @@ export default function HomePage() {
           }
         }}
       >
-        <Container maxWidth="sm" sx={{ px: 1, position: 'relative', zIndex: 1 }}>
+        <Container maxWidth="lg" sx={{ px: 1, position: 'relative', zIndex: 1 }}>
           <Box sx={{ py: 1 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 2.5 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -210,6 +239,7 @@ export default function HomePage() {
                   }}
                 >
               <Avatar
+                src={isAuthenticated && user?.pictureUrl ? user.pictureUrl : undefined}
                 sx={{
                       width: 48,
                       height: 48,
@@ -224,34 +254,101 @@ export default function HomePage() {
                       zIndex: 1,
                 }}
               >
-                👨‍🦱
+                {isAuthenticated && user?.displayName ? user.displayName.charAt(0) : '👨‍🦱'}
               </Avatar>
                 </Box>
-              <Box>
+                <Box
+                  onClick={() => isAuthenticated ? router.push('/profile') : null}
+                  sx={{
+                    cursor: isAuthenticated ? 'pointer' : 'default',
+                    '&:hover': isAuthenticated ? {
+                      '& .MuiTypography-root': {
+                        color: primaryColor
+                      }
+                    } : {}
+                  }}
+                >
                   <Typography variant="caption" sx={{ 
                     color: 'rgba(100, 116, 139, 0.8)', 
                     display: 'block', 
                     fontSize: '13px',
                     fontWeight: 500,
-                    letterSpacing: '0.5px'
+                    letterSpacing: '0.5px',
+                    transition: 'color 0.3s ease'
                   }}>
-                  จัดส่งที่
-                </Typography>
+                    {isAuthenticated && user ? `สวัสดี ${user.displayName}` : brandName}
+                  </Typography>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  <LocationOn sx={{ fontSize: 16, color: primaryColor }} />
                     <Typography variant="body1" sx={{ 
                       fontWeight: 500, 
                       color: '#0f172a', 
                       fontSize: '13px',
                       letterSpacing: '-0.3px' 
                     }}>
-                      บ้านของคุณ
-                  </Typography>
-                    <LocationOn sx={{ fontSize: 16, color: '#10b981' }} />
+                      Current Location
+                    </Typography>
+                    
+                  </Box>
                 </Box>
-              </Box>
             </Box>
-              
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                {/* LINE Login/Logout Button */}
+                {!authLoading && (
+                  isAuthenticated ? (
+                    <Button
+                      onClick={logout}
+                      size="small"
+                      sx={{
+                        minWidth: 'auto',
+                        px: 2,
+                        py: 0.5,
+                        background: 'rgba(239, 68, 68, 0.1)',
+                        color: '#ef4444',
+                        border: '1px solid rgba(239, 68, 68, 0.2)',
+                        borderRadius: '12px',
+                        fontSize: '12px',
+                        fontWeight: 500,
+                        textTransform: 'none',
+                        transition: 'all 0.3s ease',
+                        '&:hover': {
+                          background: 'rgba(239, 68, 68, 0.2)',
+                          transform: 'translateY(-1px)',
+                          boxShadow: '0 4px 15px rgba(239, 68, 68, 0.25)',
+                        }
+                      }}
+                    >
+                      ออกจากระบบ
+                    </Button>
+                  ) : (
+                    <Button
+                      onClick={login}
+                      size="small"
+                      sx={{
+                        minWidth: 'auto',
+                        px: 2,
+                        py: 0.5,
+                        background: 'rgba(34, 197, 94, 0.1)',
+                        color: '#22c55e',
+                        border: '1px solid rgba(34, 197, 94, 0.2)',
+                        borderRadius: '12px',
+                        fontSize: '12px',
+                        fontWeight: 500,
+                        textTransform: 'none',
+                        transition: 'all 0.3s ease',
+                        '&:hover': {
+                          background: 'rgba(34, 197, 94, 0.2)',
+                          transform: 'translateY(-1px)',
+                          boxShadow: '0 4px 15px rgba(34, 197, 94, 0.25)',
+                        }
+                      }}
+                    >
+                      LINE Login
+                    </Button>
+                  )
+                )}
+
                 <IconButton 
                   onClick={handleSearchClick}
                 sx={{ 
@@ -395,7 +492,7 @@ export default function HomePage() {
 
       {/* Main Content */}
        <Container 
-         maxWidth="sm" 
+         maxWidth="lg" 
          sx={{ 
           mt: 12, 
           mb: 12, 
@@ -406,6 +503,18 @@ export default function HomePage() {
           scrollbarWidth: 'none'
         }}
       >
+        <Box>
+          <Typography variant="body1" sx={{ 
+            fontWeight: 500, 
+            color: '#0f172a', 
+            fontSize: '16px',
+            letterSpacing: '-0.3px' ,
+            mb: 2,
+            p: 1,
+          }}>
+            สวัสดีคะ คุณ Line Login ID
+          </Typography>
+        </Box>
         {/* Hero Banner Carousel */}
         <Box sx={{ mb: 4, borderRadius: '24px', overflow: 'hidden' }}>
           <Swiper
@@ -466,7 +575,7 @@ export default function HomePage() {
                       letterSpacing: '-1px',
                       textShadow: '0 4px 20px rgba(0,0,0,0.5)'
                     }}>
-                      อาหารสุขภาพ
+                      {brandName}
                     </Typography>
             <Typography variant="h6" sx={{ 
                       color: 'rgba(255,255,255,0.95)', 
@@ -477,7 +586,7 @@ export default function HomePage() {
                       textShadow: '0 2px 10px rgba(0,0,0,0.4)',
                       mb: 3
                     }}>
-                      เลือกอาหารอร่อยและดีต่อสุขภาพจากร้านค้าคุณภาพ
+                      {tenant?.name || 'เลือกอาหารอร่อยและดีต่อสุขภาพจากร้านค้าคุณภาพ'}
             </Typography>
                     
                     <Box sx={{ 
@@ -693,7 +802,7 @@ export default function HomePage() {
                       textShadow: '0 2px 10px rgba(0,0,0,0.4)',
                       mb: 3
                     }}>
-                      สั่งขั้นต่ำ 500 บาท ส่งฟรีทั่วกรุงเทพ
+                      สั่งขั้นต่ำ ฿{freeDeliveryThreshold} ส่งฟรี หรือค่าส่งเพียง ฿{deliveryFee}
                     </Typography>
                     
                     <Box sx={{ 
@@ -1259,6 +1368,54 @@ export default function HomePage() {
           {snackbarMessage}
         </Alert>
       </Snackbar>
+
+      {/* LINE Login Section - แสดงเมื่อยังไม่ login */}
+      {!isAuthenticated && !authLoading && (
+        <Box
+          sx={{
+            position: 'fixed',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            zIndex: 2000,
+            background: `
+              linear-gradient(135deg, 
+                rgba(255, 255, 255, 0.9) 0%, 
+                rgba(255, 255, 255, 0.8) 100%
+              )
+            `,
+            backdropFilter: 'blur(20px) saturate(180%)',
+            WebkitBackdropFilter: 'blur(20px) saturate(180%)',
+            border: '1px solid rgba(255, 255, 255, 0.3)',
+            borderRadius: '24px',
+            p: 4,
+            textAlign: 'center',
+            minWidth: '300px',
+            boxShadow: '0 25px 50px rgba(0, 0, 0, 0.1)',
+          }}
+        >
+          <Typography variant="h5" sx={{ mb: 2, fontWeight: 700, color: '#0f172a' }}>
+            ยินดีต้อนรับสู่
+          </Typography>
+          <Typography variant="h4" sx={{ mb: 3, fontWeight: 800, color: primaryColor }}>
+            {tenant?.name || brandName}
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 4, color: '#64748b' }}>
+            เข้าสู่ระบบด้วย LINE เพื่อสั่งอาหารและติดตามออเดอร์
+          </Typography>
+          
+          <LineLoginButton size="lg" className="w-full" />
+          
+          <Typography variant="caption" sx={{ display: 'block', mt: 2, color: '#94a3b8' }}>
+            🔒 ปลอดภัยด้วย LINE Login
+          </Typography>
+        </Box>
+      )}
+
+      {/* LIFF Debug Panel - เฉพาะ development */}
+      {process.env.NODE_ENV === 'development' && (
+        <LiffDebugPanel />
+      )}
      </Box>
   );
 } 
